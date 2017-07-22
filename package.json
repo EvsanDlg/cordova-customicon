@@ -1,0 +1,30 @@
+{
+    "name": "CustomIcons",
+    "description": "Copies icons and audio to Android drawable directory",
+    "version": "0.0.1",
+    "homepage": "https://github.com/EvsanDlg/cordova-customicon#readme",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/EvsanDlg/cordova-customicon"
+    },
+	"bugs": {
+		"url": "https://github.com/EvsanDlg/cordova-customicon/issues"
+	},
+    "cordova": {
+        "id": "evsan-plugin-customicons",
+        "platforms": [
+            "ios",
+            "android",
+            "windows",
+            "browser"
+        ]
+    },
+    "keywords": [
+        "drawable",
+        "cordova-android",
+		"custom",
+		"icons"
+    ],
+    "author": "EvsanDlg",
+    "license": "Home"
+}

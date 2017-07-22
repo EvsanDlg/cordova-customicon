@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         id="evsan-plugin-customicons" version="0.0.1">
     <name>CustomIcons</name>
-    <description>Copies icons to Android drawable directory</description>
+    <description>Copies icons and audio to Android drawable directory</description>
     <license>Home</license>
     <keywords>custom,icons</keywords>
     <platform name="android">
