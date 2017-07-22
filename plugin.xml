@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="evsan-plugin-customicons" version="0.0.1">
+    <name>CustomIcons</name>
+    <description>Copies icons to Android drawable directory</description>
+    <license>Home</license>
+    <keywords>custom,icons</keywords>
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="CustomIcons">
+                <param name="android-package" value="com.plugin.CustomIcons"/>
+            </feature>
+        </config-file>
+		<!--  drawable src/android/resources -->
+        <resource-file src="src/images/ic_gesture_white_48dp/android/drawable-hdpi/ic_gesture_white_48dp.png" target="res/drawable-hdpi/ic_gesture_white_48dp.png" />
+        <resource-file src="src/images/ic_gesture_white_48dp/android/drawable-mdpi/ic_gesture_white_48dp.png" target="res/drawable-mdpi/ic_gesture_white_48dp.png" />
+        <resource-file src="src/images/ic_gesture_white_48dp/android/drawable-xhdpi/ic_gesture_white_48dp.png" target="res/drawable-xhdpi/ic_gesture_white_48dp.png" />
+        <resource-file src="src/images/ic_gesture_white_48dp/android/drawable-xxhdpi/ic_gesture_white_48dp.png" target="res/drawable-xxhdpi/ic_gesture_white_48dp.png" />
+		<!--  drawable src/android/resources -->
+        <resource-file src="src/images/ic_palette_white_48dp/android/drawable-hdpi/ic_palette_white_48dp.png" target="res/drawable-hdpi/ic_palette_white_48dp.png" />
+        <resource-file src="src/images/ic_palette_white_48dp/android/drawable-mdpi/ic_palette_white_48dp.png" target="res/drawable-mdpi/ic_palette_white_48dp.png" />
+        <resource-file src="src/images/ic_palette_white_48dp/android/drawable-xhdpi/ic_palette_white_48dp.png" target="res/drawable-xhdpi/ic_palette_white_48dp.png" />
+        <resource-file src="src/images/ic_palette_white_48dp/android/drawable-xxhdpi/ic_palette_white_48dp.png" target="res/drawable-xxhdpi/ic_palette_white_48dp.png" />
+		<!--  drawable src/android/resources -->
+        <resource-file src="src/images/ic_delete_black_24dp/android/drawable-hdpi/ic_delete_black_24dp.png" target="res/drawable-hdpi/ic_delete_black_24dp.png" />
+        <resource-file src="src/images/ic_delete_black_24dp/android/drawable-mdpi/ic_delete_black_24dp.png" target="res/drawable-mdpi/ic_delete_black_24dp.png" />
+        <resource-file src="src/images/ic_delete_black_24dp/android/drawable-xhdpi/ic_delete_black_24dp.png" target="res/drawable-xhdpi/ic_delete_black_24dp.png" />
+        <resource-file src="src/images/ic_delete_black_24dp/android/drawable-xxhdpi/ic_delete_black_24dp.png" target="res/drawable-xxhdpi/ic_delete_black_24dp.png" />
+        
+		<!-- Sounds to res/raw -->
+        <resource-file src="src/sounds/krace_new_order.mp3" target="res/raw/krace_new_order.mp3" />
+    </platform>
+</plugin>
