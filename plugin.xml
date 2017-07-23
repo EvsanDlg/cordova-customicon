@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="evsan-plugin-customicons" version="0.0.3">
+        id="evsan-plugin-customicons" version="0.0.4">
     <name>CustomIcons</name>
     <description>Copies icons and audio to Android drawable directory</description>
     <license>Home</license>
@@ -28,7 +28,7 @@
         <resource-file src="src/images/ic_delete_black_24dp/android/drawable-xhdpi/ic_delete_black_24dp.png" target="res/drawable-xhdpi/ic_delete_black_24dp.png" />
         <resource-file src="src/images/ic_delete_black_24dp/android/drawable-xxhdpi/ic_delete_black_24dp.png" target="res/drawable-xxhdpi/ic_delete_black_24dp.png" />
         
-		<resource-file src="src/images/ic_gesture_white_48dp/android/drawable-mdpi/ic_gesture_white_48dp.png" target="res/drawable/ic_gesture_white_48dp.png" />
+		<resource-file src="src/images/ic_gesture_white_48dp/android/drawable-mdpi/ic_gesture_white_48dp.png" target="res/drawables/ic_gesture_white_48dp.png" />
 
 		<!-- Sounds to res/raw -->
         <resource-file src="src/sounds/krace_new_order.mp3" target="res/raw/krace_new_order.mp3" />
