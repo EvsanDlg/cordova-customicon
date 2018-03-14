@@ -1,7 +1,7 @@
 {
     "name": "evsan-plugin-customicons",
     "description": "Copies icons and audio to Android drawable directory",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "homepage": "https://github.com/EvsanDlg/cordova-customicon#readme",
     "repository": {
         "type": "git",

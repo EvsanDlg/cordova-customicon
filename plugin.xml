@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="evsan-plugin-customicons" version="0.0.4">
+        id="evsan-plugin-customicons" version="0.0.5">
     <name>CustomIcons</name>
     <description>Copies icons and audio to Android drawable directory</description>
     <license>Home</license>
